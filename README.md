@@ -64,7 +64,7 @@ pm install-existing <id_package>
 `com.samsung.android.app.spage`<br>
 **Samsung Galaxy Store**<br>
 `com.sec.android.app.samsungapps`<br>
-**Samsung Gallery**<br>
+**Samsung Gallery \***<br>
 **OBS:** *O aplicativo de câmera da Samsung não consegue visualizar as fotos pois utiliza o Samsung Gallery*<br>
 `com.sec.android.gallery3d `<br>
 **Samsung Game Launcher**<br>
@@ -79,9 +79,13 @@ pm install-existing <id_package>
 `com.sec.android.app.myfiles`<br>
 **Samsung Phone**<br>
 `com.samsung.android.dialer`<br>
-**Samsung Smart Switch**<br>
+**Samsung Smart Switch \***<br>
+`com.sec.android.easyMover`<br>
 `com.sec.android.easyMover.agent`<br>
 
+<br>
+
+**OBS:** Marquei com asterístico (*) os pacotes que são interessantes serem mantidos.
 
 <br>
 <br>
@@ -115,7 +119,6 @@ for pkg in { \
         com.samsung.android.messaging, \
         com.sec.android.app.myfiles, \
         com.samsung.android.dialer, \
-        com.sec.android.easyMover.agent \
     }; \
     
     do pm uninstall -k --user 0 $pkg ; \
