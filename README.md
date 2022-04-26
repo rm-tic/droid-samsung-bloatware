@@ -118,7 +118,7 @@ for pkg in { \
         com.samsung.android.kidsinstaller, \
         com.samsung.android.messaging, \
         com.sec.android.app.myfiles, \
-        com.samsung.android.dialer, \
+        com.samsung.android.dialer \
     }; \
     
     do pm uninstall -k --user 0 $pkg ; \
